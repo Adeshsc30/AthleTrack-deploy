@@ -1,0 +1,20 @@
+.exo {
+    font-family: 'Exo 2';
+    font-style: italic;
+}
+.sontosh {
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-style: normal;
+}
+
+body,html,#root{
+    height: 100%;
+}
+
+
+/* .sontosh{
+    font-family: 'Inter', 'sans-serif';
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } */
