@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import "./index.css";
 import Home from "./components/Home.jsx";
 import Events from "./components/Events.jsx";
@@ -11,10 +11,10 @@ import DummyMatchDetails from "./components/DummyMatchDetails.jsx";
 import RegTourney from "./components/RegTourney.jsx";
 import NavBar from "./components/NavBar.jsx";
 import RegTeamInfoForm from "./components/RegTeamInfoForm.jsx";
-import SuperAdminLogin from "./Components/SuperAdmin/SuperAdminLogin";
-import SuperAdmin from "./Components/SuperAdmin/SuperAdmin";
-import Admin from "./Components/Admin/Admin";
-import AdminDashboard from "./Components/Admin/AdminDashboard";
+import SuperAdminLogin from "./components/SuperAdmin/SuperAdminLogin";
+import SuperAdmin from "./components/SuperAdmin/SuperAdmin";
+import Admin from "./components/Admin/Admin";
+import AdminDashboard from "./components/Admin/AdminDashboard";
 
 function App() {
   const location = useLocation();
